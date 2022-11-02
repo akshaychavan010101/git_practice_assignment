@@ -1,10 +1,10 @@
-function pallindrome(str){
-let str = ;
-*let bag = 0;
-*for (i=str.length-1; i<=0; i++){
-*  bag+=0;
+function pallindrome(string){
+let string = ;
+let reverse = "";
+for (i=string.length-1; i>=0; i--){
+  reverse+=string[i];
 }
-*if(bag == bag){
+if(reverse == string){
 console.log("Pallindrome");
 }else{
 console.log("Not a Pallindrome");
