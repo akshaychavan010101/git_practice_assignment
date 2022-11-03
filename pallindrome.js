@@ -1,10 +1,10 @@
 function pallindrome(str){
 let str = ;
-*let bag = 0;
-*for (i=str.length-1; i<=0; i++){
-*  bag+=0;
+let bag = "";
+for (i=str.length-1; i>=0; i--){
+  *bag+="";
 }
-*if(bag == bag){
+if(bag == str){
 console.log("Pallindrome");
 }else{
 console.log("Not a Pallindrome");
