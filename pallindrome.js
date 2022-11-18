@@ -1,6 +1,5 @@
 
 function pallindrome(string){
-let string = ;
 let reverse = "";
 for (i=string.length-1; i>=0; i--){
   reverse+=string[i];
